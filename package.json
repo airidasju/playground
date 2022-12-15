@@ -4,11 +4,11 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "05": "nodemon 05.js",
-    "04": "nodemon 04.js",
-    "03": "nodemon 03.js",
-    "02": "nodemon 02.js",
-    "01": "nodemon 01.js",
+    "05": "nodemon ./js/05.js",
+    "04": "nodemon ./js/04.js",
+    "03": "nodemon ./js/03.js",
+    "02": "nodemon ./js/02.js",
+    "01": "nodemon ./js/01.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
