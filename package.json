@@ -4,6 +4,7 @@
   "description": "",
   "main": "scripts.js",
   "scripts": {
+    "10": "nodemon ./tasks/10.js",
     "09": "nodemon ./tasks/09.js",
     "08": "nodemon ./tasks/08.js",
     "07": "nodemon ./tasks/07.js",
