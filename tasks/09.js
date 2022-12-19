@@ -1,9 +1,12 @@
 function squareDigits(num){
-    numArr = num.split("")
+    numArr = String(num).split("").map((num)=>{
+        return Number(num)
+      })
     for(let i = 0; i < numArr.length; i++) {
-        numArr[i] * numArr[i]
-        console.log(numArr)
+        numArr[i]= numArr[i] * numArr[i]
     }
+    numArr = numArr.join("")
+    return Number(numArr)
   }
 
 
