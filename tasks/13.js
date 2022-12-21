@@ -3,22 +3,22 @@
 function wave(str){
     const result = []
     let upperArray = []
-    let upperLetter;
+    let changed;
     let strArr = str.split('')
-    let length = strArr.length
+    let length = str.length
+    let index;
     for(let i=0; i < length; i++) {
         upperArray.push(strArr)
-        // console.log(upperArray)
     }
+    // console.log(upperArray)
     
     for(let i=0; i < length; i++) {
-        if(upperArray[i][i] == upperArray[i][i].toLowerCase()) {
-            letter = upperArray[i][i].toUpperCase()
-            result.push(letter, [...upperArray[i][i].toLowerCase()])
+            // index = upperArray[i].indexOf(upperArray[i][i])
+            // letter = upperArray[i][i].toUpperCase()
+            // // console.log(letter, index)
+            upperArray[i][i] = upperArray[i][i].toUpperCase()
         }
-        // result.push(upperArray[i][i].toUpperCase())
-    }
-    console.log(result)
+        console.log(upperArray)
 }
 
 
