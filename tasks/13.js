@@ -1,25 +1,19 @@
 // 6 kyu
 
-function wave(str){
-    const result = []
-    let upperArray = []
-    let changed;
-    let strArr = str.split('')
-    let length = str.length
-    let index;
-    for(let i=0; i < length; i++) {
-        upperArray.push(strArr)
+function wave(str) {
+    let result = [];
+  
+    for (let i = 0; i < str.length; i++) {
+      if (str[i] !== ' ') {
+        let newStr = str.substring(0, i) + str[i].toUpperCase() + str.substring(i + 1);
+        result.push(newStr);
+      }
     }
-    // console.log(upperArray)
-    
-    for(let i=0; i < length; i++) {
-            // index = upperArray[i].indexOf(upperArray[i][i])
-            // letter = upperArray[i][i].toUpperCase()
-            // // console.log(letter, index)
-            upperArray[i][i] = upperArray[i][i].toUpperCase()
-        }
-        console.log(upperArray)
-}
+    console.log(result)
+    return result;
+  }
 
 
-  wave("codewars")
+  wave("two words")
+
+  //'Two words', 'tWo words', 'twO words', 'two Words', 'two wOrds', 'two woRds', 'two worDs', 'two wordS'
