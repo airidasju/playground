@@ -21,7 +21,5 @@ function findOdd(A) {
     return 0;
   }
 
-//   if(sortedArr[i] !== sortedArr[i + 1]) {
-//     counter = 0
-// }
+
   findOdd([-2,-2,-1,-1,1,1,2,2,3,3,4,4,5,5,5,20,20])
