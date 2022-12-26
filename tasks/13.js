@@ -16,4 +16,4 @@ function wave(str) {
 
 wave('two words');
 
-//'Two words', 'tWo words', 'twO words', 'two Words', 'two wOrds', 'two woRds', 'two worDs', 'two wordS'
+
