@@ -10,19 +10,14 @@ function domainName(url){
     } 
 
     let splitStr  = newStr[1].split(".")
-    if(splitStr.length == 1) {
+    if(splitStr.length == 1 || splitStr.length == 2) {
         return splitStr[0]
-    } else if (splitStr.length == 2){
-        return splitStr[0]
-    } else if (splitStr.length == 3 && splitStr[0].length == 3){
+    } else if (splitStr.length == 3 && splitStr[0].length == 3 || splitStr.length == 4 && splitStr[0].length == 4){
         return splitStr[1]
     } else {
         return splitStr[0]
     }
-
 }
 
-domainName('http://google.co.jp');
-domainName('https://www.hwbv1x2nlmpluh50ctl92zv7rmjj.io/archive/');
-domainName('https://youtube.com');
-domainName('ejgoh-mhkwku2stluzr.jp/');
+domainName('https://www.cuq1wbax.co.uk/warez/');
+
