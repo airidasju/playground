@@ -1,3 +1,5 @@
+// 6 kyu
+
 function createPhoneNumber(numbers){
     const firstThree = numbers.slice(0, 3).join("")
     const middleNum = numbers.slice(3, 6).join("")

@@ -1,3 +1,5 @@
+// 6 kyu
+
 function arrayDiff(a, b) {
   if(b[0] == undefined) {
     console.log("empty")
